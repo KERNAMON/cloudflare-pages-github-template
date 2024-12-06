@@ -265,7 +265,11 @@ button{
 
 /* = Custom Styling
 -------------------------------------------------------------- */
-
+.nav-link.active {
+  color: red; 
+  font-weight: bold; /* Bold for emphasis? */
+  text-decoration: none;
+}
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
 }
