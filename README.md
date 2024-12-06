@@ -40,9 +40,9 @@ Just hit "Save and Deploy" and let the magic happen! ✨
 
 ## Step 7
 
-Share your beautiful website with the world. 🤓
+Share your beautiful website with the world. 💘
 
-==> https://cloudflare-pages-template.pages.dev/ (_your link might look different_)
+==> https://oss-etiquette.pages.dev/ (your link might look different)
 
 ## Step 8 (Metadata)
 
