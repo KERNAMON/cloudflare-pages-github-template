@@ -293,6 +293,7 @@ h1,h2,h3,h4.oss-title{
     margin-top: 20px; /* Ensures text is below the image */
     overflow-wrap: break-word; /* Prevents long words from breaking the layout */
     text-align: justify; /* Optional: Makes the text look cleaner */
+    color: black;
 }
 .hero-header-text{
 	font-size:180px;
