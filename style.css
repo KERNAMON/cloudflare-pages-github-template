@@ -269,11 +269,11 @@ button{
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
 }
-h1.oss-title{
-        text-align: center;  /* Centers the title horizontally */
-        color: black;        /* Makes the title text black */
-        font-size: 36px;     /* Adjust font size as needed */
-        margin-top: 50px;    /* Optional, adjusts the spacing above the title */
+h1,h2,h3,h4.oss-title{
+            text-align: center;  /* Centers the title horizontally */
+            color: black;        /* Makes the title text black */
+            font-size: 36px;     /* Adjust font size as needed */
+            margin-top: 50px;    /* Optional, adjusts the spacing above the title */
 }
 .container{
 	max-width:1140px;
