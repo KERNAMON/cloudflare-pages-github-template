@@ -275,18 +275,24 @@ h1.oss-title{
         font-size: 36px;     /* Adjust font size as needed */
         margin-top: 50px;    /* Optional, adjusts the spacing above the title */
 }
-.center-image-container {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;    /* Centers vertically */
-    height: 100%;           /* Adjust as needed */
-}
-.center-image-container img {
-    max-width: 100%; /* Ensures the image stays responsive */
-    max-height: 100%; /* Prevents overflow */
-}
 .container{
 	max-width:1140px;
+}
+.center-image-container {
+    position: relative; /* Keeps the text positioned correctly */
+    text-align: center; /* Centers the image horizontally */
+    padding: 10px;      /* Adds space between the image and text */
+}
+.center-image-container img {
+    max-width: 100%; /* Keeps the image responsive */
+    height: auto;    /* Maintains aspect ratio */
+    display: block;  /* Prevents inline space */
+    margin: 0 auto;  /* Centers the image inside the container */
+}
+.page-text {
+    margin-top: 20px; /* Ensures text is below the image */
+    overflow-wrap: break-word; /* Prevents long words from breaking the layout */
+    text-align: justify; /* Optional: Makes the text look cleaner */
 }
 .hero-header-text{
 	font-size:180px;
