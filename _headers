@@ -1,6 +1,9 @@
 # Reference: https://developers.cloudflare.com/pages/platform/headers/#prevent-your-pagesdev-deployments-showing-in-search-results
 https://:project.pages.dev/*
-  X-Robots-Tag: noindex
+  X-Robots-Tag: index, follow  # This allows search engines to index website
   
 https://:project.pages.dev/*
-  Access-Control-Allow-Origin: https://staging.:project.pages.dev
+  Access-Control-Allow-Origin: https://oss-etiquette.pages.dev  # This allows requests only from my website (??)
+
+# (??) When dealing with Cross-Origin Resource Sharing (CORS), the Access-Control-Allow-Origin header is used to specify which origins are allowed to access resources on your server.
+# (??) An origin consists of the protocol (http or https), domain and port (if specified), e.g., https://example.com
