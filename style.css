@@ -146,11 +146,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	right:100%;
 	left:auto}
 }
-.navbar .nav-link.active {
-  color: red; 
-  font-weight: bold; /* Bold for emphasis? */
-  text-decoration: none;
-}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
