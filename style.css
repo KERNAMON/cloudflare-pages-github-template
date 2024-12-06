@@ -278,15 +278,22 @@ h1,h2,h3,h4.oss-title{
 .container{
 	max-width:1140px;
 }
+.logo-container img {
+    max-width: 100%; /* Keeps the image responsive */
+    width: 200px;
+    height: auto;  
+    display: block;  /* Prevents inline space */
+    margin: 0 auto; 
+}
 .center-image-container {
     position: relative; /* Keeps the text positioned correctly */
     text-align: center; /* Centers the image horizontally */
     padding: 10px;      /* Adds space between the image and text */
 }
 .center-image-container img {
-    max-width: 100%; /* Keeps the image responsive */
+    max-width: 100%; 
     height: auto;    /* Maintains aspect ratio */
-    display: block;  /* Prevents inline space */
+    display: block; 
     margin: 0 auto;  /* Centers the image inside the container */
 }
 .page-text {
