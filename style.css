@@ -275,6 +275,16 @@ h1.oss-title{
         font-size: 36px;     /* Adjust font size as needed */
         margin-top: 50px;    /* Optional, adjusts the spacing above the title */
 }
+.center-image-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 100%;           /* Adjust as needed */
+}
+.center-image-container img {
+    max-width: 100%; /* Ensures the image stays responsive */
+    max-height: 100%; /* Prevents overflow */
+}
 .container{
 	max-width:1140px;
 }
