@@ -6,7 +6,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Site Map</title>
+        <title>OSS Etiquette - SiteMap</title>
       </head>
       <body>
         <h1>Site Map</h1>
