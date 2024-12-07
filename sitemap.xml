@@ -12,4 +12,13 @@
     <loc>https://oss-etiquette.pages.dev/</loc>
     <lastmod>2024-12-06T12:40:45+01:00</lastmod>
   </url>
+  <url>
+    <loc>https://oss-etiquette.pages.dev/version-1.0</loc>
+    <lastmod>2024-12-06T12:40:45+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://oss-etiquette.pages.dev/faq</loc>
+    <lastmod>2024-12-06T12:40:45+01:00</lastmod>
+  </url>
+  <!-- Add additional menu links here... -->
 </urlset>
