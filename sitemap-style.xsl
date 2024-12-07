@@ -7,8 +7,8 @@
     <html>
       <head>
         <title>OSS Etiquette - SiteMap</title>
+        <!-- Favicon for the rendered HTML page,  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />  could be added for backward compatibility with old browsers (as well as favicon.ico), but .png is the modern standard -->
         <link rel="icon" href="favicon.png" type="image/x-icon" />
-        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
       </head>
       <body>
         <h1>Site Map</h1>
