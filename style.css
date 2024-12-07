@@ -244,7 +244,7 @@ h1,h2,h3,h4,h5,h6.oss-title{
 }
 .logo-container img {
     max-width: 100%; /* Keeps the image responsive */
-    width: 200px;
+    width: 300px;
     height: auto;  
     display: block;  /* Prevents inline space */
     margin: 0 auto; 
