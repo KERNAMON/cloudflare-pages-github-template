@@ -21,10 +21,41 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 
 /* Preloader */
+.page-preloader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100000;
+    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    opacity: 1; /* Start fully visible */
+    transform: translateY(0); /* Keep it in view initially */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for opacity and movement */
+    will-change: opacity, transform; /* Optimize for animation */
+}
+
+/* Preloader complete state (hide it with opacity and translate out of view) */
+.page-preloader.preloader-complete {
+    opacity: 0; /* Fade out */
+    transform: translateY(-100%); /* Move out of view */
+}
+
+/* Keyframes animation for initial fade-in */
+@keyframes preloader-fade {
+    0% {
+        opacity: 1; /* Start fully visible */
+    }
+    100% {
+        opacity: 0; /* End completely invisible */
+    }
+}
+
+/* ORIGINAL Preloader 
 
 .page-preloader{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;animation-name: preloader-fade;animation-delay: 2s;animation-duration: 0.5s;animation-fill-mode: both;}
 .preloader-complete{animation-delay:0.1s;}
 @keyframes preloader-fade {0% {opacity: 1;visibility: visible;}100% {opacity: 0;visibility: hidden;}}
+*/
 
 /* = Blocs
 -------------------------------------------------------------- */
