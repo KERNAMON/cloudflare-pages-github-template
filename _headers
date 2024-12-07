@@ -26,3 +26,7 @@ https://:project.pages.dev/*
 # geolocation=(): Denies access to geolocation.
 # microphone=(): Denies microphone access.
 # camera=(): Denies camera access.
+
+# Cloudflare Pages might be serving your files with strict MIME types. The sitemap-style.xsl file must be served with the text/xsl MIME type. If Cloudflare serves it as another type (like text/plain), browsers may fail to process it.
+/sitemap-style.xsl
+  Content-Type: text/xsl
