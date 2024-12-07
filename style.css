@@ -3,7 +3,7 @@
 	About: A shiny new static website template
 	Previous Author: David Tofan github.com/DavidJKTofan/cloudflare-pages-template
 
-        
+        Modified by Saskia Ostermann Toutatis
 	Version: KERNAMON 1.0
 	Built with Blocs
 ---------------------------------------------------------------------------------------------*/
@@ -308,7 +308,6 @@ h1,h2,h3,h4.oss-title{
 	font-weight:bold;
 }
 .hero-subheader{
-	color: black;
 	font-size:35px;
 	font-weight:normal;
 }
@@ -332,7 +331,7 @@ h1,h2,h3,h4.oss-title{
 /* Text colour styles */
 
 .tc-black{
-	color:rgba(0,0,0,0.2)!important;
+	color: green !important;
 }
 
 /* Button colour styles */
