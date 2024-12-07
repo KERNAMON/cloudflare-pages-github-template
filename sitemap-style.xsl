@@ -7,8 +7,8 @@
     <html>
       <head>
         <title>OSS Etiquette - SiteMap</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
       </head>
       <body>
         <h1>Site Map</h1>
