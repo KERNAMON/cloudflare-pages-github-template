@@ -8,12 +8,6 @@
 	Built with Blocs
 ---------------------------------------------------------------------------------------------*/
 body{
-    /* Added FLEX */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh; /* Ensure body stretches the full height */
-    /* END FLEX */
 	margin:0;
 	padding:0;
     background:#FFFFFF;
