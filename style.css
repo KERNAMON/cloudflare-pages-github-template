@@ -213,7 +213,6 @@ h1,h2,h3,h4,h5,h6.oss-title{
 }
 
 .logo-container img {
-    flex: 1;
     max-width: 100%; /* Keeps the image responsive */
     width: 300px;
     height: auto;  
