@@ -8,11 +8,13 @@
 	Built with Blocs
 ---------------------------------------------------------------------------------------------*/
 body{
+    /* Added FLEX */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    /* END FLEX */
 	margin:0;
 	padding:0;
     background:#FFFFFF;
@@ -24,6 +26,13 @@ body{
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
+/* Add layout for header, moving the links menu to the right */
+.header {
+  display: flex;
+  justify-content: space-between; /* This puts the logo and links on opposite sides */
+  align-items: center;
+  width: 100%;
+}
 
 /* = Blocs
 -------------------------------------------------------------- */
