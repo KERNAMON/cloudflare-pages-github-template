@@ -20,6 +20,31 @@ body{
 a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
+/* Header flex styling to place logo on left, links on right */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px; /* Add padding for better spacing */
+}
+
+.logo {
+  flex: 1;
+}
+
+.links-menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+/* Centering content (text, images) within containers */
+.centered-content {
+  text-align: center;
+  margin: 20px 0; /* Adjust margin to space out content */
+}
+
 /* = Blocs
 -------------------------------------------------------------- */
 
