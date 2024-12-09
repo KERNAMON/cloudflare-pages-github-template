@@ -215,6 +215,7 @@ h1,h2,h3,h4,h5,h6.oss-title{
 	max-width:1140px;
 }
 
+	/*
 .page-container {
     display: flex;
     justify-content: center; /* Centers the content horizontally */
@@ -223,7 +224,7 @@ h1,h2,h3,h4,h5,h6.oss-title{
     max-width:1140px;
     padding: 20px;
 }
-
+*/
 .center-column {
     max-width: 1140px; /* Adjust as needed to ensure column is wide enough */
     width: 100%; /* Ensure it takes full width up to the max width */
