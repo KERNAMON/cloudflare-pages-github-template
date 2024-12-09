@@ -209,7 +209,6 @@ h1,h2,h3,h4,h5,h6.oss-title{
             margin-top: 50px;    /* Optional, adjusts the spacing above the title */
 }
 .container{
-	display: flex;
 	max-width:1140px;
 }
 
