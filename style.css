@@ -10,7 +10,6 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Make sure the content starts at the top */
     min-height: 100vh; /* Ensure body stretches the full height */
 	margin:10px;  /* Remove default body margin */
 	padding:20px;
