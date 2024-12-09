@@ -4,12 +4,15 @@
 	Previous Author: David Tofan github.com/DavidJKTofan/cloudflare-pages-template
 
         Modified by Saskia Ostermann Toutatis
-	Version: KERNAMON 1.0
-	Built with Blocs
+	Version: KERNAMON STYLE.CSS 1.0
+	Built with Blocs in Mind
 ---------------------------------------------------------------------------------------------*/
 body{
+  
+	
 	margin:0;
 	padding:0;
+    color:#333333;
     background:#FFFFFF;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
@@ -275,8 +278,6 @@ h1,h2,h3,h4,h5,h6.oss-title{
 	background:#cc5229!important;
 	color:#FFFFFF!important;
 }
-
-
 
 
 /* = Bloc Padding Multi Breakpoint
