@@ -215,22 +215,6 @@ h1,h2,h3,h4,h5,h6.oss-title{
 	max-width:1140px;
 }
 
-	/*
-.page-container {
-    display: flex;
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center; /* Centers the content vertically */
-    min-height: 100vh; /* Ensures the container takes full viewport height */
-    max-width:1140px;
-    padding: 20px;
-}
-*/
-.center-column {
-    max-width: 1140px; /* Adjust as needed to ensure column is wide enough */
-    width: 100%; /* Ensure it takes full width up to the max width */
-    padding: 20px;
-}
-
 .logo-container img {
     max-width: 100%; /* Keeps the image responsive */
     width: 300px;
