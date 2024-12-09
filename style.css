@@ -270,10 +270,25 @@ h1,h2,h3,h4,h5,h6.oss-title{
 
 /* Button colour styles */
 
+/*   TEST WITHOUT
 .btn-portland-orange{
 	background:#FF6633;
 	color:#FFFFFF!important;
 }
+*/
+
+.btn-portland-orange {
+    color: #FFFFFF; /* White text */
+    background-color: #FF6633; /* Portland Orange */
+    border-radius: 50%; /* Circle shape */
+    padding: 10px 20px; /* Adjust padding to make the button round */
+    display: inline-block; /* Ensure it's an inline-block element */
+    text-align: center;
+    width: 60px; /* Set a fixed width */
+    height: 60px; /* Set a fixed height */
+    line-height: 40px; /* Center the text vertically */
+} 
+	
 .btn-portland-orange:hover{
 	background:#cc5229!important;
 	color:#FFFFFF!important;
