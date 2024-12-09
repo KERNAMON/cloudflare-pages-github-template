@@ -12,7 +12,7 @@ body{
 	
 	margin:0;
 	padding:0;
-    color:#333333;
+    color:#000000;
     background:#FFFFFF;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
@@ -235,7 +235,7 @@ h1,h2,h3,h4,h5,h6.oss-title{
     margin-top: 20px; /* Ensures text is below the image */
     overflow-wrap: break-word; /* Prevents long words from breaking the layout */
     text-align: justify; /* Optional: Makes the text look cleaner */
-    color: black;
+    color: #000000;
 }
 .hero-header-text{
 	font-size:150px;
