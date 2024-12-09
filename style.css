@@ -10,7 +10,6 @@
 body{
     display: flex;
     align-items: center;
-    min-height: 100vh; /* Ensure body stretches the full height */
 	margin:0;  /* Remove default body margin */
 	padding:0;
     color:#000000;
