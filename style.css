@@ -8,8 +8,6 @@
 	Built with Blocs in Mind
 ---------------------------------------------------------------------------------------------*/
 body{
-    display: flex;
-    align-items: center;
 	margin:0;  /* Remove default body margin */
 	padding:0;
     color:#000000;
