@@ -126,6 +126,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
+.links-menu {
+  display: flex;
+  justify-content: flex-end; /* Move links to the right */
+  gap: 20px;
+}
+
 /* Handle Multi Level Navigation */
 .dropdown-menu .dropdown-menu{
 	border:none}
