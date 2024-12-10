@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Preload the critical image for faster loading -->
+        <link rel="preload" href="img/kernamon/kernamon-oss-etiquette-logotype.webp" as="image">
+	<!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="oss, etiquette, code of conduct, cloudflare, pages, template, edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="robots" content="index, follow">
+	<title>OSS Etiquette - Cloudflare Pages</title>
+    <link rel="canonical" href="https://oss-etiquette.pages.dev/cloudflare-pages-static-html-website-templates">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+	<!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="./css/kernamon-reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/baseline.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Stylesheets END -->
+</head>
+<body>
+
+<!-- Main container -->
+<div class="page-container">
+
+<!-- bloc-0 -->
+<div class="bloc bloc-fill-screen l-bloc " id="bloc-0">
+	<div class="container fill-bloc-top-edge">
+		<div class="row">
+			<div class="col-12">
+				<nav class="navbar navbar-light row navbar-expand-md">
+					<div class="container-fluid">
+						<!-- Logo in the top-left corner -->
+						<a class="navbar-brand" href="index.html">
+						   <div class="logo-container img">	
+							<img src="img/kernamon/kernamon-oss-etiquette-logotype.webp" alt="KERNAMON OSS Etiquette Logotype" style="width: 300px; height: 300px;">
+						   </div>
+						</a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ms-auto me-md-0" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-35092">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse navbar-120 navbar-29706 navbar-45188 navbar-18426 navbar-42371 navbar-35092">
+							<ul class="site-navigation nav navbar-nav ms-auto">
+                <!-- Homepage -->
+								<li class="nav-item">
+									<a href="index.html" class="nav-link a-btn">OSS Etiquette</a>
+								</li>
+								<!-- New menu item "Version 1.0" -->
+								<li class="nav-item">
+									<a href="version-1-0.html" class="nav-link a-btn">Version 1.0</a>
+								</li>
+                <!-- New menu item "Cloudflare Pages Templates" -->
+								<li class="nav-item">
+									<a href="cloudflare-pages-static-html-website-templates.html" class="nav-link a-btn">FAQ</a>
+								<!-- New menu item "FAQ" -->
+								<li class="nav-item">
+									<a href="frequently-asked-questions.html" class="nav-link a-btn">FAQ</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- Title "Cloudflare Pages Templates" in the body part -->
+        <h1 class="oss-title">Cloudflare Pages Templates</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1 class="text-center mg-clear hero-header-text text-blue-gradient">
+					KERNAMON<br>
+				</h1>
+
+				<div class="container mt-5">
+                                <!-- Section: Introduction -->
+                                <div class="row">
+                                    <div class="col">
+                                        <h2 class="text-center">Why use Cloudflare Pages?</h2>
+                                        <p class="lead text-center">
+                                           To build your own static HTML5 & CSS3 website with great templates!
+                                        </p>
+                                    </div>
+                                </div>
+
+				<div class="center-image-container">
+                                    <img src="img/kernamon/deploy-github-cloudflare-pages.webp" alt="Deploy GitHub repository to Cloudflare Pages" style="width: 650px; height: 400px;">
+                                </div>
+
+				<h3 class="mg-md float-none text-center hero-subheader tc-black">
+					Get started with <a href="https://pages.cloudflare.com/" rel="nofollow noopener noreferrer" target="_blank">Cloudflare Pages</a>
+				</h3>
+				<br><br><br>
+				<h3>What can the Cloudflare network do for you?</h3>
+				<div class="page-text">
+                                    <p>You can deliver web applications to users around the world, secure corporate assets with a Zero Trust model and streamline WAN architectures with Cloudflare.</p>
+                                    <p>Whether you are deploying serverless code or <strong>blocking cyber attacks</strong>, your security and performance capabilities extend globally. Configuration is a breeze.</p>
+	                        </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<div class="bloc l-bloc" id="bloc-1">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-lg-12 hero-first-col-mb">
+				<h1 class="mg-md text-center">
+					The Cloudflare Network
+				</h1>
+				<div class="text-center">
+					<a href="https://www.cloudflare.com/network/" class="btn btn-lg btn-rd btn-portland-orange" rel="nofollow noopener noreferrer" target="_blank">Explore</a>
+				</div>
+			</div>
+			<div class="offset-md-2 col-md-8 col-lg-8 offset-lg-2">
+				<div class="mx-auto d-block blocsapp-device blocsapp-device-mb mb-space-grey">
+					<img src="img/lazyload-ph.webp" data-src="img/cloudflare-network.webp" class="img-fluid lazyload" alt="cloudflare network" style="width: 1px; height: 1px;" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+</div>
+</div>
+<!-- Main container END -->
+</body>
+</html>
