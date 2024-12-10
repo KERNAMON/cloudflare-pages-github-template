@@ -258,8 +258,8 @@ h1,h2,h3,h4,h5,h6.oss-title{
 }
 
 .cloudflare-link {
-  color: #FFA500;        
-  font-size: 1.3rem;      
+  color: #FFA500!important;        
+  font-size: 1.25rem;      
   font-weight: bold;      
   text-decoration: none;  /* Remove underline */
 }
