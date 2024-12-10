@@ -10,7 +10,7 @@
 body{
 	margin:0;  /* Remove default body margin */
 	padding:0;
-    color:#000000;
+    color:#000000!important;
     background:#FFFFFF;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
