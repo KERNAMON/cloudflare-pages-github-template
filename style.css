@@ -10,7 +10,7 @@
 body{
 	margin:0;  /* Remove default body margin */
 	padding:0;
-    color:#000000!important;
+    color:#000000;
     background:#FFFFFF;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
@@ -201,6 +201,7 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family: "Verdana", "Helvetica", sans-serif;  /* Verdana is designed for screen readability and has wider letter spacing, making it a good choice for small text or dense paragraphs */
+	color: #000000;
 }
 h1,h2,h3,h4,h5,h6.oss-title{
             text-align: center;  /* Centers the title horizontally */
