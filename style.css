@@ -257,6 +257,19 @@ h1,h2,h3,h4,h5,h6.oss-title{
 	margin-bottom:30px;
 }
 
+.cloudflare-link {
+  color: orange;        
+  font-size: 1.5rem;      
+  font-weight: bold;      
+  text-decoration: none;  /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.cloudflare-link:hover {
+  color: darkorange;      /* Slightly darker shade on hover */
+}
+
+
 /* = Colour
 -------------------------------------------------------------- */
 
