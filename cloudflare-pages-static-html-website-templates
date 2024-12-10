@@ -41,7 +41,7 @@
 						</button>
 						<div class="collapse navbar-collapse navbar-120 navbar-29706 navbar-45188 navbar-18426 navbar-42371 navbar-35092">
 							<ul class="site-navigation nav navbar-nav ms-auto">
-                <!-- Homepage -->
+                                                                <!-- Homepage -->
 								<li class="nav-item">
 									<a href="index.html" class="nav-link a-btn">OSS Etiquette</a>
 								</li>
@@ -49,7 +49,7 @@
 								<li class="nav-item">
 									<a href="version-1-0.html" class="nav-link a-btn">Version 1.0</a>
 								</li>
-                <!-- New menu item "Cloudflare Pages Templates" -->
+                                                                <!-- New menu item "Cloudflare Pages Templates" -->
 								<li class="nav-item">
 									<a href="cloudflare-pages-static-html-website-templates.html" class="nav-link a-btn">FAQ</a>
 								<!-- New menu item "FAQ" -->
