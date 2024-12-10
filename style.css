@@ -257,9 +257,20 @@ h1,h2,h3,h4,h5,h6.oss-title{
 	margin-bottom:30px;
 }
 
+.nav-link {
+  color: #000000!important;    /* Set text color to black */
+  font-weight: bold;           /* Make the text bold */
+  text-decoration: none;       /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-link:hover {
+  color: #FF4433!important;             /* Red Orange on hover */
+}
+
 .cloudflare-link {
   color: #FFA500!important;        
-  font-size: 1.25rem;      
+  font-size: 1.20rem;      
   font-weight: bold;      
   text-decoration: none;  /* Remove underline */
 }
