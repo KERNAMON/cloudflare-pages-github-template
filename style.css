@@ -200,12 +200,12 @@ button{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family: "Verdana", "Helvetica", sans-serif;  /* Verdana is designed for screen readability and has wider letter spacing, making it a good choice for small text or dense paragraphs */
 }
 h1,h2,h3,h4,h5,h6.oss-title{
             text-align: center;  /* Centers the title horizontally */
-            color: #000000;        /* Makes the title text black */
-            font-size: 36px;     /* Adjust font size as needed */
+            color: #000000;      
+            font-size: 36px;    
             margin-top: 50px;    /* Optional, adjusts the spacing above the title */
 }
 .container{
@@ -259,7 +259,7 @@ h1,h2,h3,h4,h5,h6.oss-title{
 
 .nav-link {
   color: #000000!important;         
-  font-family: "Arial", "Helvetica", sans-serif!important; /* While most systems have Arial, some macOS users may prefer Helvetica, which is similar and often the default sans-serif font on Apple systems */
+  font-family: "Verdana", "Helvetica", sans-serif!important; /* While most systems have Arial, some macOS users may prefer Helvetica, which is similar and often the default sans-serif font on Apple systems */
   font-weight: bold;                 
   text-decoration: none;             /* Remove underline */
   transition: color 0.3s ease;       /* Smooth color transition on hover */
