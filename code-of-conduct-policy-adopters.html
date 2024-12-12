@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<!-- Preload the critical image for faster loading -->
-        <link rel="preload" href="img/kernamon/kernamon-oss-etiquette-logotype.webp" as="image">
+        <link rel="preload" href="img/kernamon/kernamon-oss-etiquette-logotype.webp" as="image" type="image/webp">
 	<!-- Metadata -->
     <meta charset="utf-8">
     <meta name="keywords" content="oss, etiquette, code of conduct, cloudflare, pages, template, edge">
@@ -10,7 +10,7 @@
 	<meta name="robots" content="index, follow">
 	<title>OSS Etiquette - Adopters</title>
     <link rel="canonical" href="https://oss-etiquette.pages.dev/">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png">
 	<!-- Stylesheets -->
         <link rel="stylesheet" type="text/css" href="./css/kernamon-reset.css">
 	<link rel="stylesheet" type="text/css" href="./css/baseline.css">
@@ -21,7 +21,7 @@
 MIT License for cloudflare-pages-template
 Copyright (c) 2023 DavidJKTofan
 
-New .html webpage added by Saskia Ostermann Toutatis (c) 2024 Saskia Ostermann Toutatis
+New .html webpage added by KERNAMON (c) 2024 Saskia Ostermann Toutatis
 Code licensed according to and under the original MIT License:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -58,7 +58,14 @@ SOFTWARE.
 						<!-- Logo in the top-left corner -->
 						<a class="navbar-brand" href="index.html">
 						   <div class="logo-container img">	
-							<img src="img/kernamon/kernamon-oss-etiquette-logotype.webp" alt="KERNAMON OSS Etiquette Logotype" class="image-class1">
+							<img 
+                                                            src="img/kernamon/kernamon-oss-etiquette-logotype.webp" 
+                                                            srcset="
+                                                                   img/kernamon/kernamon-oss-etiquette-logotype-300.webp 300w,
+                                                                   img/kernamon/kernamon-oss-etiquette-logotype-450.webp 450w"
+                                                            sizes="(max-width: 300px) 100vw, 300px"
+                                                            alt="KERNAMON OSS Etiquette Logotype" 
+                                                        class="image-class1">
 						   </div>
 						</a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 ms-auto me-md-0" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target=".navbar-35092">
