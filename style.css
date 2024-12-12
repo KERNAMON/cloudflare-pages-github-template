@@ -273,7 +273,7 @@ h1,h2,h3,h4,h5,h6.oss-title{
 .text-blue-gradient{
 	background-clip:text!important;
 	-webkit-background-clip:text!important;
-	background:linear-gradient(150deg, #0557FA 0%, #F74F16 100%);  /* Previous blue #0051C3 and previous orange #FF6633 */
+	background:linear-gradient(150deg, #0557FA 0%, #FA480C 100%);  /* Previous blue #0051C3 and previous orange #FF6633 */
 	color:transparent!important;
 }
 .feature-col-mt{
