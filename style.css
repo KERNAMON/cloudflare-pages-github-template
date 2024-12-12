@@ -244,8 +244,10 @@ h1,h2,h3,h4,h5,h6.oss-title{
     height: auto;
 }
 .image-class11 {
-    width: 1000px;
-    height: 750px;
+    max-width: 1000px;
+    max-height: 750px;
+    width: auto;
+    height: auto;
 }
 .image-class2 {
     width: 650px;
