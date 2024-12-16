@@ -27,6 +27,17 @@ SOFTWARE.
 /* Document
    ========================================================================== */
 
+
+/* Apply box-sizing globally for consistent layout behavior */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Document
+   ========================================================================== */
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
